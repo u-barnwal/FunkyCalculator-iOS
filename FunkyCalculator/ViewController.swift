@@ -35,6 +35,8 @@ class ViewController: UIViewController {
             }
         }
         
+        updateOperatorButton(tag: sender.tag);
+        
         switch sender.tag {
         case 10:
             calcOperation = Operator.Add;
@@ -92,6 +94,19 @@ class ViewController: UIViewController {
         labelResult.text = result;
         
         calcState = CalculationState.NewNumStarted;
+    }
+    
+    func updateOperatorButton(tag: Int) {
+        // clear colors
+        for i in 10..<14 {
+            if let button = self.view.viewWithTag(i) as? UIButton {
+                button.backgroundColor = UIColor.clear;
+            }
+        }
+        
+        if let button = self.view.viewWithTag(tag) as? UIButton {
+            button.backgroundColor = UIColor.yellow;
+        }
     }
     
 }
