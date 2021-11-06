@@ -33,7 +33,7 @@
                                                     <backgroundConfiguration key="background" image="one"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="numberClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cyX-0P-mRZ"/>
+                                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2D6-im-veG"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEW-vf-Dog">
@@ -49,7 +49,7 @@
                                                     <backgroundConfiguration key="background" image="two"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="numberClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nl8-Qj-3fx"/>
+                                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S3a-uQ-a34"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oS0-gq-8YR">
@@ -65,7 +65,7 @@
                                                     <backgroundConfiguration key="background" image="three"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="numberClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dOF-fF-bZg"/>
+                                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SEv-EX-SxV"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JvP-sx-0x5">
@@ -81,7 +81,7 @@
                                                     <backgroundConfiguration key="background" image="add"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="operatorClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dRi-KL-eUg"/>
+                                                    <action selector="operatorClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M8n-I9-zbZ"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -102,7 +102,7 @@
                                                     <backgroundConfiguration key="background" image="four"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="numberClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uKM-GG-Dfa"/>
+                                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Zs-Vc-8QB"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Xl-I0-8Lj">
@@ -118,7 +118,7 @@
                                                     <backgroundConfiguration key="background" image="five"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="numberClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j1c-12-XFM"/>
+                                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fbu-sG-Fhg"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8a-KX-ogN">
@@ -134,7 +134,7 @@
                                                     <backgroundConfiguration key="background" image="six"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="numberClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QvM-Ru-yRY"/>
+                                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ipp-Rx-Fvg"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1d-4s-bvm">
@@ -150,7 +150,7 @@
                                                     <backgroundConfiguration key="background" image="minus"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="operatorClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nF0-qP-EiX"/>
+                                                    <action selector="operatorClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c9k-wn-tT3"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -171,7 +171,7 @@
                                                     <backgroundConfiguration key="background" image="seven"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="numberClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lsd-9c-Ip5"/>
+                                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fwO-1X-5dW"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KgU-7I-F5L">
@@ -187,7 +187,7 @@
                                                     <backgroundConfiguration key="background" image="eight"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="numberClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZXG-pe-UV5"/>
+                                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ahu-Lc-Wx2"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsS-bA-cNW">
@@ -203,7 +203,7 @@
                                                     <backgroundConfiguration key="background" image="nine"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="numberClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Ic-y1-iuD"/>
+                                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hhj-xp-egJ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qp4-xp-VfC">
@@ -219,7 +219,7 @@
                                                     <backgroundConfiguration key="background" image="times"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="operatorClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kK7-lZ-cVc"/>
+                                                    <action selector="operatorClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xKb-Me-u04"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -238,7 +238,7 @@
                                                     <backgroundConfiguration key="background" image="zero"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="numberClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2xA-86-KNB"/>
+                                                    <action selector="numberClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PZp-M0-BaO"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITH-Ty-oYU">
@@ -252,7 +252,7 @@
                                                     <backgroundConfiguration key="background" image="equals"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="equalsClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JeJ-zf-YZg"/>
+                                                    <action selector="equalsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A35-tH-MLH"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnQ-x5-SVg">
@@ -266,7 +266,7 @@
                                                     <backgroundConfiguration key="background" image="divide"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="operatorClickedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lqj-Qa-6p2"/>
+                                                    <action selector="operatorClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pI8-zj-Sqt"/>
                                                 </connections>
                                             </button>
                                         </subviews>
